@@ -1013,7 +1013,7 @@ a:focus {
 
 .profile-dropdown > a img {
     border-radius: 50%;
-    border: 1px solid #111;
+    border: 1px solid #888;
     width: 28px;
     height: 28px;
 }
@@ -1565,7 +1565,7 @@ a:focus {
 .post-meta span {
     list-style: none;
     margin-right: 8px;
-    color: #111111;
+    color: #7a7a7a;
     font-size: 12px;
     white-space: nowrap;
 }
@@ -1573,7 +1573,7 @@ a:focus {
 .post-meta a {
     list-style: none;
     margin-right: 8px;
-    color: #111111;
+    color: #7a7a7a;
     font-size: 12px;
     font-weight: 600;
     white-space: nowrap;
@@ -1680,7 +1680,7 @@ img.lazyload:not([src]) {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #111111;
+    color: #a7a8ac;
     margin-right: 30px;
     font-size: 13px;
 }
@@ -1919,7 +1919,7 @@ img.lazyload:not([src]) {
 .post-content .post-tags ul li a {
     background-color: #f7f7f7;
     border: 1px solid #f3f3f3;
-    color: #111;
+    color: #888;
     display: inline-block;
     font-size: 13px;
     padding: 7px 12px;
@@ -3128,7 +3128,7 @@ div#amplitude-right div.song div.song-meta-data {
 .sidebar-widget .tag-list li a {
     background-color: #f7f7f7;
     border: 1px solid #f3f3f3;
-    color: #111;
+    color: #888;
     display: inline-block;
     font-size: 13px;
     padding: 7px 12px;
@@ -3373,7 +3373,7 @@ div#amplitude-right div.song div.song-meta-data {
 }
 
 .post-item .description {
-    color: #111111;
+    color: #7a7a7a;
     font-size: 14px;
     line-height: 22px;
 }
@@ -3449,7 +3449,7 @@ div#amplitude-right div.song div.song-meta-data {
 .small-post-meta a {
     list-style: none;
     margin-right: 8px;
-    color: #111111;
+    color: #7a7a7a;
     font-size: 12px;
     font-weight: 600;
     white-space: nowrap;
@@ -3458,7 +3458,7 @@ div#amplitude-right div.song div.song-meta-data {
 .small-post-meta span {
     list-style: none;
     margin-right: 8px;
-    color: #111111;
+    color: #7a7a7a;
     font-size: 12px;
     white-space: nowrap;
 }
@@ -4016,7 +4016,7 @@ div#amplitude-right div.song div.song-meta-data {
 
 .profile-header .profile-last-seen svg {
     margin-right: 8px;
-    color: #111;
+    color: #888;
 }
 
 .profile-header .profile-last-seen.online svg {
