@@ -1565,7 +1565,7 @@ a:focus {
 .post-meta span {
     list-style: none;
     margin-right: 8px;
-    color: #7a7a7a;
+    color: #111111;
     font-size: 12px;
     white-space: nowrap;
 }
@@ -1573,7 +1573,7 @@ a:focus {
 .post-meta a {
     list-style: none;
     margin-right: 8px;
-    color: #7a7a7a;
+    color: #111111;
     font-size: 12px;
     font-weight: 600;
     white-space: nowrap;
@@ -1680,7 +1680,7 @@ img.lazyload:not([src]) {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #a7a8ac;
+    color: #111111;
     margin-right: 30px;
     font-size: 13px;
 }
@@ -3373,7 +3373,7 @@ div#amplitude-right div.song div.song-meta-data {
 }
 
 .post-item .description {
-    color: #7a7a7a;
+    color: #111111;
     font-size: 14px;
     line-height: 22px;
 }
@@ -3449,7 +3449,7 @@ div#amplitude-right div.song div.song-meta-data {
 .small-post-meta a {
     list-style: none;
     margin-right: 8px;
-    color: #7a7a7a;
+    color: #111111;
     font-size: 12px;
     font-weight: 600;
     white-space: nowrap;
@@ -3458,7 +3458,7 @@ div#amplitude-right div.song div.song-meta-data {
 .small-post-meta span {
     list-style: none;
     margin-right: 8px;
-    color: #7a7a7a;
+    color: #111111;
     font-size: 12px;
     white-space: nowrap;
 }
