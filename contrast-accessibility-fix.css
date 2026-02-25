@@ -1,0 +1,162 @@
+/* ==========================================
+   INRJOB.COM CONTRAST ACCESSIBILITY FIX
+   WCAG 2.1 AA Compatible
+   ========================================== */
+
+/* ---------- ROOT COLORS ---------- */
+:root{
+  --primary:#0b5ed7;
+  --primary-dark:#084298;
+
+  --text-main:#111111;
+  --text-secondary:#374151;
+  --text-light:#ffffff;
+
+  --bg-white:#ffffff;
+  --bg-light:#f4f6f9;
+  --border:#d1d5db;
+}
+
+
+/* ---------- GLOBAL TEXT FIX ---------- */
+body{
+  background:var(--bg-white);
+  color:var(--text-main);
+  line-height:1.6;
+}
+
+/* Prevent faded gray text */
+p,
+span,
+li,
+small{
+  color:var(--text-secondary);
+}
+
+
+/* ---------- LINKS ---------- */
+a{
+  color:var(--primary);
+  text-decoration:underline;
+}
+
+a:hover,
+a:focus{
+  color:var(--primary-dark);
+}
+
+
+/* ---------- NAVBAR FIX ---------- */
+.navbar,
+.header,
+.site-header{
+  background:#0a58ca !important;
+}
+
+.navbar a,
+.header a{
+  color:#ffffff !important;
+}
+
+
+/* ---------- BUTTON CONTRAST ---------- */
+button,
+.btn,
+input[type="submit"]{
+  background:var(--primary);
+  color:#ffffff;
+  border:none;
+  font-weight:600;
+}
+
+button:hover,
+.btn:hover{
+  background:var(--primary-dark);
+  color:#ffffff;
+}
+
+
+/* ---------- CARD / JOB BOX ---------- */
+.card,
+.job-box,
+.job-card,
+.box,
+.section-light{
+  background:var(--bg-light);
+  color:var(--text-main);
+}
+
+
+/* ---------- FORM INPUTS ---------- */
+input,
+select,
+textarea{
+  background:#ffffff;
+  color:#111111;
+  border:1px solid var(--border);
+}
+
+input::placeholder,
+textarea::placeholder{
+  color:#6b7280;
+  opacity:1;
+}
+
+
+/* ---------- FOOTER ---------- */
+footer{
+  background:#111827;
+  color:#ffffff;
+}
+
+footer a{
+  color:#e5e7eb;
+}
+
+footer a:hover{
+  color:#ffffff;
+}
+
+
+/* ---------- TABLE READABILITY ---------- */
+table{
+  color:#111;
+  background:#fff;
+}
+
+th{
+  background:#e5e7eb;
+  color:#111;
+}
+
+
+/* ---------- FOCUS ACCESSIBILITY ---------- */
+a:focus,
+button:focus,
+input:focus,
+select:focus{
+  outline:3px solid #ffbf47;
+  outline-offset:2px;
+}
+
+
+/* ---------- REMOVE LOW CONTRAST EFFECTS ---------- */
+*{
+  text-shadow:none !important;
+}
+
+
+/* ---------- BADGE / LABEL FIX ---------- */
+.badge,
+.label{
+  background:#0b5ed7;
+  color:#ffffff;
+}
+
+
+/* ---------- MOBILE TEXT IMPROVEMENT ---------- */
+@media(max-width:768px){
+  body{
+    font-size:16px;
+  }
+}
