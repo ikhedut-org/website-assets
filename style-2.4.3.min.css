@@ -1013,7 +1013,7 @@ a:focus {
 
 .profile-dropdown > a img {
     border-radius: 50%;
-    border: 1px solid #888;
+    border: 1px solid #111;
     width: 28px;
     height: 28px;
 }
@@ -1919,7 +1919,7 @@ img.lazyload:not([src]) {
 .post-content .post-tags ul li a {
     background-color: #f7f7f7;
     border: 1px solid #f3f3f3;
-    color: #888;
+    color: #111;
     display: inline-block;
     font-size: 13px;
     padding: 7px 12px;
@@ -3128,7 +3128,7 @@ div#amplitude-right div.song div.song-meta-data {
 .sidebar-widget .tag-list li a {
     background-color: #f7f7f7;
     border: 1px solid #f3f3f3;
-    color: #888;
+    color: #111;
     display: inline-block;
     font-size: 13px;
     padding: 7px 12px;
@@ -4016,7 +4016,7 @@ div#amplitude-right div.song div.song-meta-data {
 
 .profile-header .profile-last-seen svg {
     margin-right: 8px;
-    color: #888;
+    color: #111;
 }
 
 .profile-header .profile-last-seen.online svg {
